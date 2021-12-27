@@ -1,0 +1,23 @@
+Training start @ 2020-09-16 08:45:15.437327
+Train: 39287 graphs, 10021 functions
+Dev: 4897 graphs, 2450 functions
+Valid_filename:./data/virus/openssl101agcc540.json#./data/virus/openssl101ggcc540.json#
+Initial training auc = 0.583505626615 @ 2020-09-16 08:46:16.338185
+Initial validation auc = 0.583505626615 @ 2020-09-16 08:46:16.354721
+EPOCH 1/5, loss = 0.655070548323 @ 2020-09-16 08:52:12.514211
+Testing model: training auc = 0.747053586681 @ 2020-09-16 08:53:14.433705
+Testing model: validation auc = 0.747053586681 @ 2020-09-16 08:54:20.528980
+Model saved in ./saved_model/graphnn-model_best
+EPOCH 2/5, loss = 0.625487500646 @ 2020-09-16 09:00:29.648618
+Testing model: training auc = 0.617481249832 @ 2020-09-16 09:01:14.644809
+Testing model: validation auc = 0.617481249832 @ 2020-09-16 09:02:08.015098
+EPOCH 3/5, loss = 0.620700775782 @ 2020-09-16 09:07:45.395796
+Testing model: training auc = 0.452953565142 @ 2020-09-16 09:08:43.260110
+Testing model: validation auc = 0.452953565142 @ 2020-09-16 09:09:31.366222
+EPOCH 4/5, loss = 0.619652044497 @ 2020-09-16 09:15:35.319727
+Testing model: training auc = 0.61595996448 @ 2020-09-16 09:16:44.775036
+Testing model: validation auc = 0.61595996448 @ 2020-09-16 09:17:46.199667
+EPOCH 5/5, loss = 0.616146884421 @ 2020-09-16 09:22:10.835297
+Testing model: training auc = 0.581815559913 @ 2020-09-16 09:23:21.295916
+Testing model: validation auc = 0.581815559913 @ 2020-09-16 09:24:25.755219
+Model saved in ./saved_model/graphnn-model-5

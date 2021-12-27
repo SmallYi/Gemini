@@ -1,0 +1,24 @@
+Training start @ 2020-09-14 10:39:52.502633
+Train: 45139 graphs, 7699 functions
+Dev: 8780 graphs, 4404 functions
+Valid_filename:./data/acfgSSL_6/openssl-x86-linux-o2v54.json#./data/acfgSSL_6/openssl-x86-linux-o3v54.json#
+Initial training auc = 0.760023911487 @ 2020-09-14 10:40:28.209459
+Initial validation auc = 0.760023911487 @ 2020-09-14 10:40:28.212700
+EPOCH 1/5, loss = 1.07783067489 @ 2020-09-14 10:46:57.117539
+Testing model: training auc = 0.76068114546 @ 2020-09-14 10:47:18.498376
+Testing model: validation auc = 0.76068114546 @ 2020-09-14 10:47:42.458273
+Model saved in ./saved_model/graphnn-model_best
+EPOCH 2/5, loss = 1.07064521254 @ 2020-09-14 10:53:51.826129
+Testing model: training auc = 0.760650022779 @ 2020-09-14 10:54:13.667767
+Testing model: validation auc = 0.760650022779 @ 2020-09-14 10:54:37.752185
+EPOCH 3/5, loss = 1.05980931305 @ 2020-09-14 11:00:38.826966
+Testing model: training auc = 0.729359707127 @ 2020-09-14 11:01:03.150979
+Testing model: validation auc = 0.729359707127 @ 2020-09-14 11:01:26.171678
+EPOCH 4/5, loss = 1.0648619567 @ 2020-09-14 11:07:51.469496
+Testing model: training auc = 0.760827738366 @ 2020-09-14 11:08:22.147206
+Testing model: validation auc = 0.760827738366 @ 2020-09-14 11:08:55.744013
+Model saved in ./saved_model/graphnn-model_best
+EPOCH 5/5, loss = 1.07026585665 @ 2020-09-14 11:15:20.244023
+Testing model: training auc = 0.760825343313 @ 2020-09-14 11:15:45.616202
+Testing model: validation auc = 0.760825343313 @ 2020-09-14 11:16:06.449900
+Model saved in ./saved_model/graphnn-model-5

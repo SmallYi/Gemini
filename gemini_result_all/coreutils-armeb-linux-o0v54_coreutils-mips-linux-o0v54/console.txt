@@ -1,0 +1,27 @@
+Training start @ 2020-09-15 20:31:23.602808
+Train: 6513 graphs, 1404 functions
+Dev: 1670 graphs, 1103 functions
+Valid_filename:./data/acfgCORE_6/coreutils-armeb-linux-o0v54.json#./data/acfgCORE_6/coreutils-mips-linux-o0v54.json#
+Initial training auc = 0.809388989012 @ 2020-09-15 20:31:28.158111
+Initial validation auc = 0.809388989012 @ 2020-09-15 20:31:28.158253
+EPOCH 1/5, loss = 0.875512798846 @ 2020-09-15 20:32:09.109335
+Testing model: training auc = 0.810241476447 @ 2020-09-15 20:32:15.510502
+Testing model: validation auc = 0.810241476447 @ 2020-09-15 20:32:21.532180
+Model saved in ./saved_model/graphnn-model_best
+EPOCH 2/5, loss = 0.765651592849 @ 2020-09-15 20:33:25.261864
+Testing model: training auc = 0.820546374154 @ 2020-09-15 20:33:32.710415
+Testing model: validation auc = 0.820546374154 @ 2020-09-15 20:33:39.342996
+Model saved in ./saved_model/graphnn-model_best
+EPOCH 3/5, loss = 0.758098399397 @ 2020-09-15 20:34:34.154499
+Testing model: training auc = 0.822763739952 @ 2020-09-15 20:34:40.936489
+Testing model: validation auc = 0.822763739952 @ 2020-09-15 20:34:48.233140
+Model saved in ./saved_model/graphnn-model_best
+EPOCH 4/5, loss = 0.756935803144 @ 2020-09-15 20:35:37.231278
+Testing model: training auc = 0.824934861081 @ 2020-09-15 20:35:42.197822
+Testing model: validation auc = 0.824934861081 @ 2020-09-15 20:35:46.476795
+Model saved in ./saved_model/graphnn-model_best
+EPOCH 5/5, loss = 0.73913807514 @ 2020-09-15 20:36:12.777844
+Testing model: training auc = 0.829925849977 @ 2020-09-15 20:36:16.973146
+Testing model: validation auc = 0.829925849977 @ 2020-09-15 20:36:20.300782
+Model saved in ./saved_model/graphnn-model_best
+Model saved in ./saved_model/graphnn-model-5
